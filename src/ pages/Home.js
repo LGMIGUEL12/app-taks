@@ -130,7 +130,7 @@ export const Home = ({ correoUsuario }) => {
                 value={user.titulo}
               />
               <br />
-              <label id="descripcion">Task Description:</label>
+              <label id="descripcion">Task Descriptions:</label>
               <br />
               <textarea
                 rows="4"
