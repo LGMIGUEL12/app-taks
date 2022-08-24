@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/styles.js",
+  entry: "../src/styles.js",
   output: {
     filename: "main.js",
-    path: path.resolve("./public"),
+    path: path.resolve("../public"),
   },
   resolve: {
     extensions: [".js"],
